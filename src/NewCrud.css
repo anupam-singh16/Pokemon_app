@@ -1,0 +1,29 @@
+*{
+    text-align: center;
+}
+input{
+    height:35px;
+    width: 20%;
+   align-self: center;
+}
+
+button{
+    height: 40px;
+    width: 10%;
+    background-color: rgb(109, 236, 193);
+}
+/* div{
+    width: 100%;
+    height: 40vh;
+    background-color: blue;
+} */
+.edit{
+    height: 40px;
+    width: 10%;
+    background-color: green;
+}
+.delete{
+    height: 40px;
+    width: 10%;
+    background-color: red  ;
+}
