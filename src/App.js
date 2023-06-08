@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import Todo from './Todo';
 import Login from './Login';
 import SignUp from './SignUp';
-// import NestedObj from './nestedObj';
 import {Routes,Route} from "react-router-dom"
 import PageError from './pageError';
 import NewCrud from './newCrud';

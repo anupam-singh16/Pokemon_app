@@ -1,8 +1,6 @@
 import React from 'react'
-// import "./style.css"
 
 function Cart({pokemon,loading,infoPokemon,btn}) {
-  // console.log(pokemon,loading);
   return (
     <>
     {
