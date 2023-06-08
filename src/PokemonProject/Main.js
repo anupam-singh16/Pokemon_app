@@ -39,6 +39,7 @@ const pokeFun = async () =>{
   setPrevUrl(res.data.previous);
   getPokemon(res.data.results);
   setLoading(false)
+  
 } 
 
 
