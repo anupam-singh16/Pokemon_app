@@ -106,7 +106,7 @@ const getPokemon = async(res) =>{
             <div className='btn-group' >
           <button onClick={()=>{
             setUrl(prevUrl)
-          }} >anupam</button>
+          }} >previous</button>
           <button onClick={()=>{
             setUrl(nextUrl)
           }} >next</button>
