@@ -5,16 +5,17 @@ import SignUp from './SignUp';
 import {Routes,Route} from "react-router-dom"
 import PageError from './pageError';
 import NewCrud from './newCrud';
-import Main from './Components/Main';
-import ToNew from './ToNew';
+import Main from './PokemonProject/Main';
+// import ToNew from './ToNew';
 import Calculator from "./Calculator"
-import CatchItem from './Components/CatchItem';
-import PokemonInfo from './Components/PokemonInfo';
+import CatchItem from './PokemonProject/CatchItem';
+import PokemonInfo from './PokemonProject/PokemonInfo';
 import AnupamCrud from './AnupamCrud';
-import NextPage from './Components/NextPage';
+import NextPage from './PokemonProject/NextPage';
 import ScreenSize from './ScreenSize';
-import PureCom from './Components/pureCom';
+import PureCom from './PokemonProject/pureCom';
 import Crud_userList from './Crud_userList';
+import Language from './Language';
 
 
 
@@ -40,6 +41,8 @@ const App = () => {
           <Route path='/ScreenSize'  element={<ScreenSize/>}/>
           <Route path='/pureCom'  element={<PureCom/>} />
           <Route path='/userList' element={<Crud_userList/>}  />
+          <Route path='/Language'   element={<Language/>}  /> 
+       
         </Routes>
      </>
     )

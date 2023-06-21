@@ -18,7 +18,7 @@ function Crud_userList() {
   ])
    
    const addItem =(newRow)=>{
-        let id = data.id+1
+    let id = data.id+1
     setData((olditems)=>[...olditems,{id,name,email,address}])
    
     }
