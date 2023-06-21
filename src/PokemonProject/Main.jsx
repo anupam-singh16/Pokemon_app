@@ -8,7 +8,7 @@ import { Link } from 'react-router-dom'
 
 
 
-function Main({cData}) {
+const  Main = ({cData})=> {
     
 function timing(){
  setTime( new Date ().toLocaleTimeString());
@@ -39,7 +39,7 @@ const pokeFun = async () =>{
   setPrevUrl(res.data.previous);
   getPokemon(res.data.results);
   setLoading(false)
-  
+
 } 
 
 
@@ -106,7 +106,7 @@ const getPokemon = async(res) =>{
             <div className='btn-group' >
           <button onClick={()=>{
             setUrl(prevUrl)
-          }} >previous</button>
+          }} >anupam</button>
           <button onClick={()=>{
             setUrl(nextUrl)
           }} >next</button>
